@@ -92,10 +92,8 @@
     [bezierPath appendPath:smoke2];
     [bezierPath appendPath:smoke3];
     
-    
     self.houseDrawView.pathToDraw = bezierPath;
-    
-    
+        
 }
 
 - (void)didReceiveMemoryWarning

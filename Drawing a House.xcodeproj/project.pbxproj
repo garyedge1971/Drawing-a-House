@@ -21,6 +21,7 @@
 		B1D6028C193337CE00EB3CE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D6026E193337CE00EB3CE2 /* UIKit.framework */; };
 		B1D60294193337CE00EB3CE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1D60292193337CE00EB3CE2 /* InfoPlist.strings */; };
 		B1D60296193337CE00EB3CE2 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D60295193337CE00EB3CE2 /* Drawing_a_HouseTests.m */; };
+		B1D602A1193337FF00EB3CE2 /* RTFHouseDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D602A0193337FF00EB3CE2 /* RTFHouseDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B1D60291193337CE00EB3CE2 /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		B1D60293193337CE00EB3CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1D60295193337CE00EB3CE2 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		B1D6029F193337FF00EB3CE2 /* RTFHouseDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTFHouseDrawView.h; sourceTree = "<group>"; };
+		B1D602A0193337FF00EB3CE2 /* RTFHouseDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTFHouseDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B1D6027C193337CE00EB3CE2 /* Main.storyboard */,
 				B1D6027F193337CE00EB3CE2 /* RTFViewController.h */,
 				B1D60280193337CE00EB3CE2 /* RTFViewController.m */,
+				B1D6029F193337FF00EB3CE2 /* RTFHouseDrawView.h */,
+				B1D602A0193337FF00EB3CE2 /* RTFHouseDrawView.m */,
 				B1D60282193337CE00EB3CE2 /* Images.xcassets */,
 				B1D60271193337CE00EB3CE2 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				B1D60277193337CE00EB3CE2 /* main.m in Sources */,
 				B1D6027B193337CE00EB3CE2 /* RTFAppDelegate.m in Sources */,
+				B1D602A1193337FF00EB3CE2 /* RTFHouseDrawView.m in Sources */,
 				B1D60281193337CE00EB3CE2 /* RTFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

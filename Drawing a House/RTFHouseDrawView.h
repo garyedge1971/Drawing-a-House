@@ -10,6 +10,5 @@
 
 @interface RTFHouseDrawView : UIView
 
-@property (strong, nonatomic) UIBezierPath *pathToDraw;
 
 @end

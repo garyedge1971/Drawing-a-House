@@ -10,6 +10,6 @@
 #import "RTFHouseDrawView.h"
 
 @interface RTFViewController : UIViewController
-@property (strong, nonatomic) IBOutlet RTFHouseDrawView *houseDrawView;
+
 
 @end
